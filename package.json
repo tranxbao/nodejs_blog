@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "scr/index.js",
-  "scripts": {
+"scripts": {
     "start": "nodemon --inspect src/index.js",
     "watch": "node-sass --watch src/resources/scss/ --output src/public/css/",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,7 +15,7 @@
   "author": "",
   "license": "ISC",
   "lint-staged": {
-    "/src/**/*.{js,json,scss}": "prettier --single-quote --trailing-comma all --tab-width 4 --write"
+    "*.{js,json,scss}": "prettier --single-quote --trailing-comma all --tab-width 4 --write"
   },
   "husky": {
     "hooks": {
