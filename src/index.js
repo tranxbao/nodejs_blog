@@ -27,7 +27,7 @@ app.set('views', path.join(__dirname, 'resources\\views'));
 //Home, search , contact
 
 // Route init
-route(  app);
+route(app);
 
 //127.0.0.1 -localhost:3000
 app.listen(port, () => {
